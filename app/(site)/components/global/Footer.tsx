@@ -17,7 +17,7 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Coded by <span className="text-green-400">Dan Wilson<FaXTwitter color="white" fontSize="1.5em" /></span>
+              <FaXTwitter color="white" fontSize="1em" />Coded by <span className="text-green-400">Dan Wilson</span>
               
             </a>
           </small>
