@@ -1,3 +1,8 @@
+import {
+  FaTwitter,
+} from "react-icons/fa";
+
+
 export default function Footer() {
     return (
       <footer className="border-t border-zinc-800 mt-44">
@@ -13,6 +18,7 @@ export default function Footer() {
               rel="noreferrer noopener"
             >
               Coded by <span className="text-green-400">Dan Wilson</span>
+              <FaTwitter color="black" fontSize="1.5em" />
             </a>
           </small>
         </div>
