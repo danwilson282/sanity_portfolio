@@ -1,6 +1,6 @@
 import {
-  FaTwitter,
-} from "react-icons/fa";
+  FaXTwitter,
+} from "react-icons/fa6";
 
 
 export default function Footer() {
@@ -17,8 +17,8 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer noopener"
             >
-              Coded by <span className="text-green-400">Dan Wilson</span>
-              <FaTwitter color="black" fontSize="1.5em" />
+              Coded by <span className="text-green-400">Dan Wilson<FaXTwitter color="white" fontSize="1.5em" /></span>
+              
             </a>
           </small>
         </div>
