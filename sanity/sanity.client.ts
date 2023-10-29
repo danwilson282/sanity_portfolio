@@ -6,7 +6,7 @@ const config: ClientConfig = {
   projectId: "8pe7spjr",
   dataset: "production",
   apiVersion: "2023-10-23",
-  useCdn: true,
+  useCdn: false,
 };
 
 const client = createClient(config);
