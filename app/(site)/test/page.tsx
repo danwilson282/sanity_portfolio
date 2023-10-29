@@ -3,11 +3,11 @@
 
 
 
-const Post = ({job=""}) => {
+const Post = ({job="hello"}) => {
   
     return (
       <article>
-        <h1>job</h1>
+        <h1>{job}</h1>
       </article>
     )
   }
